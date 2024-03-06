@@ -48,6 +48,7 @@ export default function Details() {
         </h3>
         <div>
           <button
+          
             onClick={() => handleAddToFavorite(recipeDetailsData?.recipe)}
             className="p-3 px-8 rounded-lg text-sm uppercase font-medium tracking-wider mt-3 inline-block shadow-md bg-black text-white"
           >
